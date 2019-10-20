@@ -1,0 +1,40 @@
+"""
+This file contains the messages we put on Slack daily. 
+This file does not contain the call for a daily standup.
+"""
+
+QUOTES = ["In theory there is no difference between theory and practice. In practice there is. –Yogi Berra",
+"In learning, persistence is often far more important than intelligence. -Barbara Oakley ",
+"Efficiency is doing things right; effectiveness is doing the right things. -Peter Drucker ",
+"If you know the way broadly, you will see it in everything. -Miyamoto Murashi ",
+"The scariest moment is always just before you start. After that, things can only get better. -Stephen King",
+"The great aim of education is not knowledge but action. — Herbert Spencer",
+"A man who carries a cat by the tail learns something he can learn in no other way. — Mark Twain",
+"The doer alone learneth. — Friedrich Nietzsche",
+"Smooth seas do not make skillful sailors. — African Proverb",
+"Anything worth doing well is worth doing poorly at first. — Ray Congdon",
+"Spoon feeding in the long run teaches us nothing but the shape of the spoon. ― E.M. Forster",
+"The only person who is educated is the one who has learned how to learn and change. — Carl Rogers"]
+
+COMICS = ["*When you force developers to test...*\nhttp://www.glasbergen.com/wp-content/gallery/advice-cartoons/advice-02.gif",
+    "*How testers think*\nhttps://xkcd.com/242/",
+        "*Hard work at school vs hard work at work*\nhttps://twitter.com/AnemoneLost/status/869914564313227266",
+        "*How testers think*\nhttp://i.imgur.com/d4qBHRY.jpg",
+        "*Grumpledump's song*\nhttps://www.poets.org/poetsorg/poem/mr-grumpledumps-song",
+        "*Oversight*\nhttps://www.gocomics.com/dilbert-classics/2016/09/24",
+        "*How testers and developers talk*\nhttp://68.media.tumblr.com/ec9f1eb8ec2f2fd64ead23b29681ea38/tumblr_ow80v9UYFB1w7kmtko1_1280.jpg",
+        "*Frontend vs Backend*\nhttps://external-preview.redd.it/n7VEb5xncy2S7GMP7NItct8uM2voONu7zADMvc842W8.jpg?auto=webp&s=612390e784d9dac82caf068e030534a15fa40986",
+        "*Determinism*\nhttp://geek-and-poke.com/geekandpoke/2018/8/17/determinism",
+        "*Code review*\nhttps://www.monkeyuser.com/2019/code-review/"]
+
+HABITS = ["*Steady small steps*\nRemember to take steady small steps. Your good habits compound over time. So get into the habit of breaking down your tasks into small steps and making effort everyday.",
+"*Be curious*\nA lot of our learning is driven by curiosity. We don't limit ourselves to being curious just about testing alone. Any topic is worth learning and pursuing. We are good at exploration and figuring what the next steps are, which leads us to independent thinking and effective search. So if you find yourself thinking \"How is this testing?\" - remember that we are a curious bunch!",
+"*Accountability and ownership*\nWe own our actions and are accountable to it. You are given substantially more freedom to choose your work. But it comes with substantially more responsibility too.",
+"*Communication*\nWe respect the flexibility the remote work and flexible timings offers us. To maintain the two, we rely on good written communication. For a small company, we have a lot of stuff written up. We are also pretty open about our problems and reach out to colleagues help with technical problems on group channels (not 1:1 channel). That way, the entire team can join if they want and we learn if there are missing pieces to our knowledge base.",
+"*Learning, doing and sharing*\nThe key part of our culture is this one. We regularly learn a variety of things, we execute our tasks from what we have learnt and then share it with everyone. 'Everyone' is more than just our colleagues at Qxf2. We make a sincere effort to make our work publicly available.",
+"*Learn new things quickly*\nAs Testers, we always think \"what if\" \"how to\" and many more such questions. What do we do? First, we think what are we trying to find out? How would I find out? Google or refer to notes, in the 2nd or 3rd iteration, I would have found some answers. If not, ask my knowledgeable colleagues",
+"*Event driven approach*\nWe break everything down into a series of small steps. The steps are all Event-driven with no rush to conclude. We all work on tasks which might have different conclusions. There is no hurry to end it. It's like the paint drip. You can stop at the end of the drip but start again from a new drip."]
+
+REMINDERS = ["*Reminder*\n>a) Update the retrospective card with your Good/Bad/Change\n>b) Fill out the help survey."]
+
+ENCOURAGEMENTS = ["*Rough starts are normal at Qxf2*\n Great job of gamely hanging in there for another week. If you are feeling \"not good enough\", remind yourself that most employees have rough starts at Qxf2. After all, you are transitioning into a very different way of working that requires you to change, learn and unlearn many things. You should also know that it gets better over time and sometimes even fun(!) when you get used to our system of working.", "*How to succeed in your first few weeks with Qxf2*\nThe traits that will let you successfully navigate the initial phase with Qxf2 do not require talent. Key traits among the successful Qxf2 employees were: \n>a) showing up daily (well, virtually)\n>b) being open about their difficulties at work  \n>c) being willing to change their habits. \n So, keep trying every day, be open about your difficulties and be willing to change.", "*How are you judging me?*\n We will not judge you based on your knowledge or achievements at this stage of your relationship with Qxf2. Why? Because you are transitioning from one system of work into another. That means you need to unlearn, learn and piece together multiple habits before you are productive. Instead, we are judging you based on your effort, the openness that you show in asking for help and your ability to adapt. Do that and you will find things will work out over well the coming months.","*It's not only you*\n Many new hires think they are the only ones struggling to get a handle on their work while everyone else has figured it out. Not really. The rest of us look comfortable only because we have made peace with high levels of ambiguity and complexity. At some point, you are going to realize that each of us are on our own journey of learning, unlearning, doing and failing.", "* Failure despite effort*\n Qxf2 is a stressful environment until you learn multiple new habits and the compounding effect of those habits kick in. Until then, you are going to repeatedly fail despite trying hard. We know failing repeatedly over a long enough period of time is highly stressful for professionals. We have taken several steps to make \"failure despite effort\" less stressful. For example, we have tried to make \"failing despite effort\" as non-punitive as possible. We are also very receptive to hearing about your failures. So feel safe to try your best and come up short.","*Adaptive vs Technical challenges*\n Technical challenges can be solved by knowledge and training. But there are some challenges that evolve as you solve them. These are adaptive challenges. Parenting is probably is the most relatable example of an adaptive challenge. Adaptive challenges not only need technical skills but they also need constant engagement, fresh mindsets and ever-improving mental models. As you continue your journey through Qxf2, remember this critical distinction. It is not enough that you just execute the tasks given to you. You need to periodically introspect and evaluate if the work is changing your habits, mindset and perspective.","*A tip for your first year*\n I have a simple tip that will make your first year at Qxf2 so much easier. Stop asking \"what is the use of doing X?\" and just do X. It's ok if nobody else you know outside of Qxf2 is doing X. Over time, you will notice that doing X had multiple benefits that neither you nor me could have predicted (called 'emergent behavior' in a complex system) and that you will be better off for having tried."]
