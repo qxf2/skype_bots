@@ -55,8 +55,12 @@ def post_message(msg):
     channel = sk.chats.chat(Qxf2_Main)
     channel.sendMsg(msg)
 
-#----START OF SCRIPT
-if __name__=='__main__':
+def post_todays_message(event=None, context=None):
+    "Post today's message"
     weekday = get_weekday()
     msg = get_message(weekday)
     post_message(msg)
+
+#----START OF SCRIPT
+if __name__=='__main__':
+    post_todays_message()
