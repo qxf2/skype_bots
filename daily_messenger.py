@@ -1,10 +1,9 @@
 """
 This script will post a new message everyday on Skype
 """
+import datetime, os, random
+import new_hire_messages as new_hire_msg
 from skpy import Skype
-import skype_credentials as credentials
-import new_hire_messages as new_hire_msg 
-import datetime, random
 
 #Channels
 Qxf2_PTO='19:f33e901e871d4c3c9ebbbbee66e59ebe@thread.skype'
@@ -52,12 +51,12 @@ def get_message(day):
 
 def post_message(msg):
     "Post a message"
-    sk = Skype(credentials.USERNAME,credentials.PASSWORD)
+    sk = Skype(os.environ.get('SKYPE_USERNAME'),os.environ.get('SKYPE_PASSWORD'))
     channel = sk.chats.chat(Qxf2_Main)
     channel.sendMsg(msg)
 
 #----START OF SCRIPT
 if __name__=='__main__':
     weekday = get_weekday()
-    msg = get_message(weekday) 
+    msg = get_message(weekday)
     post_message(msg)
