@@ -8,12 +8,12 @@ from skpy import Skype
 def get_channel_id(event):
     "Return the channel id, default to main if channel not available"
     channel = 'main'
-    if event.has_key('channel'):
+    if 'channel' in event.keys():
         channel = event['channel'].lower()
     channels = os.environ.get('SKYPE_CHANNELS')
     channels = channels.replace("'", "\"")
     channels = json.loads(channels)
-    if channels.has_key(channel):
+    if channel in channels.keys():
         channel_id = channels[channel]
     else:
         channel_id = channels['main']
